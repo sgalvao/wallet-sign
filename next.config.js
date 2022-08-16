@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  assetPrefix: "./",
   exportTrailingSlash: true,
   reactStrictMode: true,
   swcMinify: true,
-  images: {
-    domains: ["*"],
-  },
 };
 
 module.exports = nextConfig;
